@@ -51,6 +51,7 @@ pycountry = "^24.6.1"
 types-requests = "^2.32"
 opensmile = "^2.5.0"
 numpy = "^1.26"
+nltk = "^3.8.1"
 umap-learn = "^0.5.6"
 scikit-learn = "^1.5.0"
 
@@ -152,7 +153,7 @@ skip = [
   "poetry.lock",
   "docs_style/pdoc-theme/syntax-highlighting.css"
 ]
-ignore-words-list = ["senselab", "nd", "astroid", "wil", "SER"]
+ignore-words-list = ["senselab", "nd", "astroid", "wil", "SER", "te"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
